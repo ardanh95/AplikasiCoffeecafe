@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/gamb"
+    android:paddingRight="10dp"
+    android:paddingTop="70dp"
+    android:orientation="vertical"
+    tools:context="com.Coffeepoffee.app.aplikasicaffe.struk">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#6a2713"
+        android:text="~ NOTE ~"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pemesan :"
+        android:layout_marginBottom="10dp"
+        android:textColor="#6a2713"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="#6a2713"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomer Meja Pemesan : "
+        android:textColor="#6a2713"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/meja"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#6a2713"
+        android:textSize="15dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Pesanan Anda :"
+        android:textColor="#6a2713"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalpesanan"
+        android:layout_marginBottom="10dp"
+        android:textColor="#6a2713"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Pembayaran"
+        android:textColor="#6a2713"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalharga"
+        android:layout_marginBottom="20dp"
+        android:textColor="#6a2713"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah Anda Ingin Memesan "
+        android:layout_gravity="center"
+        android:textColor="#6a2713"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tombol"
+        android:text=""
+        android:layout_gravity="center"
+        android:textColor="#efe1ba"
+        android:background="#6a2713"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atau"
+        android:layout_gravity="center"
+        android:textColor="#6a2713"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tidak"
+        android:text=" Tidak "
+        android:layout_gravity="center"
+        android:textColor="#efe1ba"
+        android:background="#6a2713"
+        android:textSize="15dp"/>
+
+</LinearLayout>

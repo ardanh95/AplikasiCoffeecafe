@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu2"
+    tools:context="com.Coffeepoffee.app.aplikasicaffe.HalamanPertama">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/makanan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"/>
+
+    <Button
+        android:id="@+id/minuman"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Menu Makanan"
+        android:background="#6a2713"
+        android:textColor="#efe1ba"
+        android:layout_marginTop="270dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/minuman"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"/>
+
+    <Button
+        android:id="@+id/makanan"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Menu coffee"
+        android:background="#6a2713"
+        android:textColor="#efe1ba"
+        android:layout_marginTop="420dp"/>
+</RelativeLayout>

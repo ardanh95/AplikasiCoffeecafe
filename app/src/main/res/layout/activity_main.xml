@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cafe"
+    tools:context="com.Coffeepoffee.app.aplikasicaffe.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b3000000"/>
+
+    <LinearLayout
+        android:id="@+id/LayoutInput"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tulisan"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/username"
+            android:hint="Username"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_o"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/password"
+            android:textColor="#fff"
+            android:hint="Password"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_key"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:textColorHint="#fff"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/login"
+            android:background="@drawable/background_gradient"
+            android:layout_marginTop="35dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="LOGIN"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tulisan"
+        android:src="@drawable/ic_group_button"
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="COFFEE POFFEE CAFE "
+        android:fontFamily="@font/backpackpersonaluse"
+        android:textColor="#FF8000"
+        android:textSize="70dp"/>
+
+</RelativeLayout>
